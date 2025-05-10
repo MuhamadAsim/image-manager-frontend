@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useContext } from "react";
-import { AuthContext } from "./Authcontext";
+import { AuthContext } from "./AuthContext";
 import axios from "axios";
 
 const backendUrl = import.meta.env.VITE_BACKEND_URL;
