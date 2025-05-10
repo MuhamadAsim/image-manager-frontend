@@ -3,12 +3,12 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-d
 
 import Navbar from "./components/Navbar";
 import Register from "./components/Register";
-import Login from "./components/login";
+import Login from "./components/Login";
 import Upload from "./components/Upload";
 import Gallery from "./components/Gallery";
 import Home from "./components/Home";
 
-import { AuthProvider, AuthContext } from "./components/Authcontext";
+import { AuthProvider, AuthContext } from "./components/AuthContext";
 
 const App = () => {
   return (
